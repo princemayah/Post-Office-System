@@ -1,0 +1,28 @@
+{
+  "name": "project_final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "node app.js",
+    "client": "cd ./frontend && npm start"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^9.0.2",
+    "mime-types": "^2.1.35",
+    "moment-timezone": "^0.5.43",
+    "mysql2": "^3.6.2",
+    "nodemailer": "^6.9.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

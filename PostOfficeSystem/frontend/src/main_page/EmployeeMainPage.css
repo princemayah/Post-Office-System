@@ -1,0 +1,14 @@
+/* Add some rounded corners to cards for a softer look */
+.card {
+    border-radius: 1rem;
+  }
+  
+  /* Space out the buttons a bit */
+  button {
+    margin-top: 1rem;
+  }
+  
+  /* Add a little more margin to Form Groups for better separation */
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
